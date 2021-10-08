@@ -1,608 +1,453 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="theme" content="hugo-academic" />
+        <meta name="generator" content="Hugo 0.19" />
+        <meta name="author" content="Yiming Li" />
+        <meta name="description" content="Bachelor of Mechanical Engnieering" />
+        <link rel="stylesheet" href="/css/highlight.min.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/css/academicons.min.css" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono" />
+        <link rel="stylesheet" href="/css/hugo-academic.css" />
+        <link rel="alternate" href="https://tpbull.github.io/index.xml" type="application/rss+xml" title="Yiming Li's Website" />
+        <link rel="feed" href="https://tpbull.github.io/index.xml" type="application/rss+xml" title="Yiming Li's Website" />
+        <link rel="icon" type="image/png" href="/img/icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png" />
+        <link rel="canonical" href="https://tpbull.github.io/" />
+        <title>Yiming Li's Website</title>
+        <script>var _hmt = _hmt || []; (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?c83bf8b7e066e7c41af36a85a5651bf2";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();</script>
+    </head>
 
-    <meta name=viewport content=“width=800”>
-    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-    <style type="text/css">
-        /* latin-ext */
-        @font-face {
-            font-family: 'Lato';
-            font-style: italic;
-            font-weight: 400;
-            src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-
-        /* latin */
-        @font-face {
-            font-family: 'Lato';
-            font-style: italic;
-            font-weight: 400;
-            src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-
-        /* latin-ext */
-        @font-face {
-            font-family: 'Lato';
-            font-style: italic;
-            font-weight: 700;
-            src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-
-        /* latin */
-        @font-face {
-            font-family: 'Lato';
-            font-style: italic;
-            font-weight: 700;
-            src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-
-        /* latin-ext */
-        @font-face {
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 400;
-            src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-
-        /* latin */
-        @font-face {
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 400;
-            src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-
-        /* latin-ext */
-        @font-face {
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 700;
-            src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-        }
-
-        /* latin */
-        @font-face {
-            font-family: 'Lato';
-            font-style: normal;
-            font-weight: 700;
-            src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-        }
-
-        a {
-            color: #1772d0;
-            text-decoration: none;
-        }
-
-        a:focus,
-        a:hover {
-            color: #f09228;
-            text-decoration: none;
-        }
-
-        body,
-        td,
-        th,
-        tr,
-        p,
-        a {
-            font-family: 'Lato', Verdana, Helvetica, sans-serif;
-            font-size: 14px
-        }
-
-        strong {
-            font-family: 'Lato', Verdana, Helvetica, sans-serif;
-            font-size: 14px;
-        }
-
-        heading {
-            font-family: 'Lato', Verdana, Helvetica, sans-serif;
-            font-size: 22px;
-        }
-
-        papertitle {
-            font-family: 'Lato', Verdana, Helvetica, sans-serif;
-            font-size: 14px;
-            font-weight: 700
-        }
-
-        name {
-            font-family: 'Lato', Verdana, Helvetica, sans-serif;
-            font-size: 32px;
-        }
-
-        .one {
-            width: 160px;
-            height: 160px;
-            position: relative;
-        }
-
-        .two {
-            width: 160px;
-            height: 160px;
-            position: absolute;
-            transition: opacity .2s ease-in-out;
-            -moz-transition: opacity .2s ease-in-out;
-            -webkit-transition: opacity .2s ease-in-out;
-        }
-
-        .fade {
-            transition: opacity .2s ease-in-out;
-            -moz-transition: opacity .2s ease-in-out;
-            -webkit-transition: opacity .2s ease-in-out;
-        }
-
-        span.highlight {
-            background-color: #ffffd0;
-        }
-    </style>
-    <link rel="icon" type="image/jpg" href="img/headshot.jpg">
-    <title>YIMING LI</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet'
-          type='text/css'>
-
-</head>
-<body>
-<table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-        <td>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="67%" valign="middle">
-                        <p align="center">
-                            <name>YIMING LI</name>
-                        </p>
-                        <p>
-                            I'm a first-year PhD student in <a href="https://ai4ce.github.io/">AI4CE Lab</a> at <a href="https://www.nyu.edu/">New York University (NYU)</a> with Dean's PhD Fellowship.
-                            In my research, I am exploring the integration of robotic perception, navigation, planning and deep learning.
-                        </p>
-                        <p>
-                            Prior to NYU, I received my bachelor degree in mechanical engineering from <a href="https://en.tongji.edu.cn/">Tongji University (TJU)</a> with honors, where I have investigated robot localization and low-level visual recognition like visual tracking.
-                        </p>
-                        <p align=center>
-                            <a href="mailto:yimingli@nyu.edu">Email</a> &nbsp/&nbsp
-                            <a href="https://github.com/RoboticsYimingLi">Github</a> &nbsp/&nbsp
-                            <!--<a href="pdf/cv.pdf">CV</a> &nbsp/&nbsp-->
-                            <a href="https://scholar.google.com/citations?hl=en&user=i_aajNoAAAAJ&view_op=list_works">Google Scholar</a>
-                            &nbsp/&nbsp
-                            <a href="https://www.linkedin.com/in/yiming-li-58b519173/">Linkedin</a>
-                        </p>
-                    </td>
-                    <td width="33%">
-                        <a href="img/headshot.jpeg">
-                            <img src="img/headshot.png" width="250px"></a>
-                    </td>
-                </tr>
-            </table>
-
-                <!-- ########## Section: Research Intersets ########## -->
-<!--                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
-<!--                    <tr>-->
-<!--                    <td style="padding:20px;width:100%;vertical-align:middle">-->
-<!--                    <heading>Research</heading>-->
-<!--                    <p>-->
-<!--                        My research lies in motion forecasting and planning. Early in my Ph.D. study, much of my research is about robotics planning under physical interaction.-->
-<!--                        After that, I stepped on the journey towards autonomous driving and injected traditional planning ideas into learning-based methods.-->
-<!--                        My <b>first-authored</b> works are listed below.-->
-<!--                        <!-- Representative papers are <span class="highlight">highlighted</span>. -->
-<!--                    </p>-->
-<!--                    <p> -->
-<!--                        Currently I'm dedicated to developing robust and interpretable algorithms for Prediction & Planning in Autonomous Driving.-->
-<!--                    </p>-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                </tbody></table>-->
-
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="100%" valign="middle">
-                        <heading>Education</heading>
-                    </td>
-                </tr>
-            </table>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/nyu.png' width="160"></div>
+    <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Yiming Li's Website</a></div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a href="/#about" data-target="#about">
+                                <span>About me</span></a>
+                        </li>
+						<li class="nav-item">
+                            <a href="/#Research" data-target="#Research">
+                                <span>Research Highlights</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/#Publications" data-target="#Publications">
+                                <span>Publications</span></a>
+                        </li>
+						<li class="nav-item">
+                            <a href="/#Preprints" data-target="#Preprints">
+                                <span>Preprints</span></a>
+                        </li>
+						<li class="nav-item">
+                            <a href="/#Patents" data-target="#Patents">
+                                <span>Patents</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/#contact" data-target="#contact">
+                                <span>Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <span id="homepage" style="display: none"></span>
+        <section id="about" class="home-section">
+            <div class="container">
+                <div class="row" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                    <div class="col-xs-12 col-md-4">
+                        <div id="profile">
+                            <div class="portrait" itemprop="image" style="background-image: url('/img/me.jpg');"></div>
+                            <div class="portrait-title">
+                                <h2 itemprop="name">Yiming Li</h2>
+                                <h3 itemprop="jobTitle">Passion • Perseverance • Intuition</h3>
+                                <h3 itemprop="worksFor">Tongji University<br>Shanghai</h3>
+                            </div>
+                            <p>
+                                <a href="https://github.com/RoboticsYimingLi"><i class="fa fa-github fa-2x"></i></a> &nbsp &nbsp 
+                                <a href="https://scholar.google.com.hk/citations?user=i_aajNoAAAAJ&hl=zh-CN"><i class="ai ai-google-scholar ai-2x"></i></a> 
+                                <!-- &nbsp
+                                <a href="/pdf/cv.pdf"><i class="ai ai-cv ai-2x"></i></a> &nbsp -->
+                            </p>
                         </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Sept. 2020 - Jun. 2025 (Expected) </strong>
-                        <br>
-                        <strong>PhD Student in Robotics, Dean's PhD Fellowship</strong>
-                        <br>
-                        Automation and Intelligence for Civil Engineering (AI4CE) Group
-                        <br>
-                        Tandon School of Engineering, New York University
-                        <br>
+                    </div>
+                    <div class="col-xs-12 col-md-8" itemprop="description">
+                        <h1 id="biography">About me</h1>
+                        <p>I am now pursuing B.Eng. degree in mechanical engineering in Tongji University.  As a researcher in <a href="https://vision4robotics.github.io/">Vision4robotics Group</a> supervised by Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works&sortby=pubdate">Changhong Fu</a>, I have strong interest in robot vision, with a focus on <b>visual object tracking for unmanned aerial vehicle (UAV)</b> and <b>moving camera localization</b>.
+                        <p> <I>"The two most important days in your life are the day you were born and the day you figure out why."</I>  Initially, I focus on mechanical design of robots. From my third year in the university, I have devoted myself to endowing the robots advanced vision capability. My ultimate goal is to help robots perceive the world like humans. <a href="/pdf/YIMING LI_V10.1.pdf">Here</a> is my newest CV.</p>					
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-4">
+                            <h3>Experience</h3>
+                            <ul class="ul-edu fa-ul">
+                                <li>
+                                    <i class="fa-li fa fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <p class="course">Visiting Student in Department of Automation
+                                            <br />Sept. 2019 -- Now</p>
+                                        <p class="institution">Tsinghua University, Beijing</p></div>
+                                </li>
+                                <li>
+                                    <i class="fa-li fa fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <p class="course">B.Eng. of Mechanical Engnieering
+                                            <br />Sept. 2015 -- Now</p>
+                                        <p class="institution">Tongji University, Shanghai</p></div>
+                                </li>
+								                                <li>
+                                    <i class="fa-li fa fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <p class="course">High School Student
+                                            <br />Sept. 2012 -- Jun. 2015</p>
+                                        <p class="institution">Taiyuan No.5 Middle Schoole, Taiyuan</p></div>
+                                </li>
+                            </ul>
+                        </div>
+						<div class="col-sm-8">
+                            <h3>Awards</h3>
+                            <ul class="ul-interests">
+							    <li>2019, <b>Top 10 Undergraduate Researchers in TJU</b></li>
+                                <li>2019, <b>Shanghai Scholarship</b> (top 1%)</li>
+								<li>2018, Model of Outstanding Students (top 1.5‰)</li>
+				                <li>2018, <b>National Scholarship</b> (top 1%)</li>
+								<li>2018, Second Prize of the 1st "Energy Intelligence Future" National College Student Innovation and Entrepreneurship Competition</li>
+								<li>2018, First Prize of the 3rd Shanghai Mechanics Competition</li>
+								<li>2018, First Prize of the 8th Shanghai Innovation Design Competition</li>
+								<li>2018, Meritorious Winner in Mathematics Contest in Modeling</li>
+								<li>2017, Champion of Honda Eco Mileage Challenge (GS Group)</li>
+
+                        </div>                       
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-12">
+                            <h3>News</h3>
+                            <ul class="ul-interests">
+							    <li>
+                                    <p class="institution">02/2020: One paper is accepted at <b>CVPR 2020</b>.
+									</p>                                
+                                </li>
+								<li>
+                                    <p class="institution">02/2020: One paper on visual object tracking is accepted by the <b>IEEE Trans. on Multimedia</b>.</p>
+                                </li>
+							    <li>
+                                    <p class="institution">01/2020: Two papers are accepted at <b>ICRA 2020</b>.
+                                </li>
+                                <li>
+                                    <p class="institution">07/2019: One paper is accepted at <b>ICCV 2019</b>.
+                                </li>
+                                <li>
+                                    <p class="institution">06/2019: One paper is accepted at <b>IROS 2019</b>.
+                                </li>
+								<li>
+                                        <p class="institution">07/2018: I join the <a href="https://vision4robotics.github.io/">Vision4robotics Group</a>, enjoy the academic journey!</p>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+	    <section id="Research" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Research Highlights</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#bcd4e6;height:5px" />
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Develop Real-Time Aerial Tracking Algorithms on a Single CPU</h5>
+                                </div>
+                                <div class="col-md-12" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text"><p>Compared to general object tracking, aerial tracking is subjected to more issues like strong motion, mechanical vibration, limited power capacity, etc. Therefore, effective and efficient tracking approaches are desirable in aerial scenarios. I am committed myself to designing robust trackers with real-time frame rates on a single CPU. Finished works adopt novel techniques: (1) repressing aberrance (2) augmenting memory (3) fusing multiple features (4) multi-frame verification (5) multi-resolution strategy (6) part-based method.
+									                                          <p>Recently, I am working on automatic spatially and temporally attentive correlation filters.  Interestingly, the new method can achieve precise tracking in an automatic learning manner with high efficiency (~60FPS).</p></div></div>
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class="col-xs-12">
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Deep Learning-based Visual Tracking for UAV in Complex Environment</h5>
+                                </div>
+                                <div class="col-md-12" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text"><p>Deep learning has made a remarkable contribution to the development of  computer vision. In visual object tracking community, most deep-based trackers sacrifice speed to pursue robustness and cannot be practically used even with a high-end GPU. Inspired by keyframe-based SLAM, I proposed an efficient deep feature-based tracking framework, i.e., <a href = "https://github.com/vision4robotics/KAOT-tracker">keyfilter-aware object tracker (KAOT)</a>. Intermittent context learning  has significantly lowered redundancy, and keyfilter restriction has smoothly suppressed model corruptions. The tracker runs at around 15 FPS on NVIDIA 2080 GPU and can be used in real-time applications.
+									                                          <p>Recently, I am focusing on developing lightweight GPU-based trackers with strong robustness based on siamese network to facilitate hardware implementation.</p></div></div>
+                            </div>
+                        </div>
+				    </div>
+					
+                    <div class="col-xs-12">
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Moving Camera Localization in the Indoor and Outdoor Scenarios</h5>
+                                </div>
+                                <div class="col-md-12" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text"><p>Traditional research on intelligent video analytics is primarily based on static cameras, recently, the development of aerial and ground robots leads to new forms of visual sensing based on moving cameras. 
+									                                           The mobile robots with flexibility and autonomy facilitate efficient and effective means of law enforcement, such as building inspection, forest fire monitoring and crowd analysis for large gathering. Various kinds of practical applications of UAV-mounted cameras are
+																			   meaningful to the establishment of a safe and smart city. I have developed a monocular localization system for moving cameras which is more universal and flexible compared to general localization method like GPS.  
+																			   In ROS Gazebo, our UAV performs building inspection task in the outdoor scenarios. Besides, this system is validated in the real indoor scenarios on <a href="https://www.quanser.com/products/autonomous-vehicles-research-studio/">quanser</a> platform. </p> 
+									                                          <p>I think that combination of theory and practice is appealing and hardware implementation is crucial to a research.  In the future, I will address both the theoretical and practical perspectives. </p> </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="Publications" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Publications</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:##67c077;height:8px" />
+						
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">AutoTrack: Towards High-Performance Visual Tracking for UAV with Automatic Spatio-Temporal Regularization </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b>Yiming Li</b>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fangqiang-ding/">Fangqiang Ding</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href="https://www.researchgate.net/profile/Geng_Lu2">Geng Lu</a>  
+                                     <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2003.12949.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/AutoTrack">CODE</a></div>										
+                                <div class="pub-publication"> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.</div></div> 
+                            </div>
+                        </div>
+						
+						<div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Keyfilter-Aware Real-Time UAV Object Tracking </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <b>Yiming Li</b>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href="https://vision4robotics.github.io/authors/yinqiang-zhang/">Yinqiang Zhang</a>, <a href = "https://scholar.google.com.hk/citations?user=YYT8-7kAAAAJ&hl=zh-CN">Jia Pan</a>
+                                     <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2003.05218.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/KAOT-tracker">CODE</a></div>										
+                                <div class="pub-publication"> IEEE International Conference on Robotics and Automation (ICRA), Paris, France, 2020.</div></div> 
+                            </div>
+                        </div>
+						
+						<div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Training-Set Distillation for Real-Time UAV Object Tracking </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <a href="https://vision4robotics.github.io/authors/fan-li/">Fan Li</a>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fuling-lin/">Fuling Lin</a>, <b>Yiming Li</b>, <a href="https://scholar.google.com.hk/citations?user=ts7ItWgAAAAJ&hl=zh-CN">Peng Lu</a>
+                                     <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2003.05326.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/TSD-Tracker">CODE</a></div>										
+                                <div class="pub-publication"> IEEE International Conference on Robotics and Automation (ICRA), Paris, France, 2020.</div></div> 
+                            </div>
+                        </div>
+						
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking </h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <b>Yiming Li</b>, <a href="https://vision4robotics.github.io/authors/fuling-lin/">Fuling Lin</a>, <a href="https://scholar.google.com.hk/citations?user=ts7ItWgAAAAJ&hl=zh-CN">Peng Lu</a>   
+                                     <a class="btn btn-primary btn-outline btn-xs" href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/ARCF-tracker">CODE</a></div>										
+                                <div class="pub-publication"> IEEE International Conference on Computer Vision (ICCV), Seoul, Korea, October 2019.</div></div> 
+                            </div>
+                        </div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Boundary Effect-Aware Visual Tracking for UAV with Online Enhanced Background Learning and Multi-Frame Consensus Veriﬁcation</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <b>Yiming Li</b>, <a href="https://www.polyu.edu.hk/researchgrp/arclab/Ran%20Duan.html">Ran Duan</a>, <a href="https://scholar.google.com.hk/citations?user=ts7ItWgAAAAJ&hl=zh-CN">Peng Lu</a>    
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1908.03701.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/BEVT-tracker">CODE</a></div>	
+                                <div class="pub-publication">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Macau, China, November 2019.</div></div>
+                            </div>
+                        </div>
 
 
-<!--                        Work with-->
-<!--                        <a href="https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en">Prof. Chen Feng</a>-->
-                        <p></p>
-                        <p>On advancing fundamental automation and intelligence technologies, and addressing challenges of their applications in civil and mechanical engineering.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/TJU.png' width="150"></div>
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Correlation Filter-Based Visual Tracking for UAV with Online Multi-Feature Learning</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                        <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fuling-lin/">Fuling Lin</a>, <b>Yiming Li</b>, <a href="https://scholar.google.com.hk/citations?user=kBhIyv4AAAAJ&hl=zh-CN">Guang Chen</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://www.mdpi.com/2072-4292/11/5/549">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/OMFL-Tracker">CODE</a></div>
+                                <div class="pub-publication">Remote Sens. 2019, 11(5),549</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Sept. 2015 - Jun. 2020 </strong>
-                        <br>
-                        <strong>Bachelor of Engineering in Mechanical Engineering</strong>
-                        <br>
-                        Tongji University, Shanghai
-                        <br>
-                        Undergraduate Academic Star (top 10 students from 18,115 undergraduates)
-                        <br>
-                        Shanghai Outstanding Graduate, 1/114
-<!--                        <br>-->
-<!--                        Work with-->
-<!--                        <a href="https://scholar.google.com/citations?user=zmbMZ4kAAAAJ&hl=en">Prof. Changhong Fu</a>-->
-                        <p></p>
-                        <p>National Scholarship, Shanghai Scholarship, Outstanding Undergraduate Thesis, Model of Outstanding Students, etc.</p>
-                    </td>
-                </tr>
-            </table>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="100%" valign="middle">
-                        <heading>Research and Teaching Experience</heading>
-                    </td>
-                </tr>
-            </table>
-           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/nyu.png' width="145"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Preprints" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 section-heading">
+                        <h1>Preprints</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#bcd4e6;height:5px" />
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Augmented Memory for Correlation Filters in Real-Time UAV Tracking</h5>
+                                    <div class="pub-authors" itemprop="author">
+                                     <b>Yiming Li</b>                                        
+                                        , <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fangqiang-ding/">Fangqiang Ding</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href = "https://scholar.google.com.hk/citations?user=YYT8-7kAAAAJ&hl=zh-CN">Jia Pan</a>
+                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1909.10989.pdf">PDF</a>
+				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/AMCF-tracker">CODE</a></div>
+                                </div>
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="/img/headers/AMCF.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">In this work, a novel tracker based on DCF framework is proposed to augment memory of previously appeared views while running at real-time speed. Several historical views and the current view are simultaneously introduced in training to allow the tracker to adapt to new appearances as well as memorize previous ones. A novel rapid compressed context learning is proposed to increase the discriminative ability of the filter efficiently.</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Jun. 2020 - Present </strong>
-                        <br>
-                        <strong>Research Assistant, New York University, NYC</strong>
-                        <br>
-                        Tandon School of Engineering
-                        <br>
-                        AI4CE Group
-                        <br>
-                        Work with
-                        <a href="https://scholar.google.com/citations?user=YeG8ZM0AAAAJ&hl=en">Prof. Chen Feng</a>
-                        <p></p>
-                        <p>Conduct research in robot perception, navigation and planning.</p>
-                    </td>
-                </tr>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<section id="Patents" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 section-heading">
+                        <h1>Patents</h1></div>
+                    <div class="col-xs-12">
+                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:##67c077;height:8px" />
 
-                <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/SJTU.png' width="140"></div>
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">UAV-loaded Serpentine Manipulator for Search and Rescue </h5>                                     	
+                                <div class="pub-publication">China National Intellectual Property Administration 
+								<a class="btn btn-primary btn-outline btn-xs" href="/pdf/UAV-loaded Serpentine Manipulator for Search and Rescue.pdf">PDF</a></div></div>                                
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="/img/headers/SnakeRobots.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">We design a UAV-loaded double-headed serpentine manipulator for search and rescue, comprising a multi-rotor drone, an airborne control system, a binocular vision system, a double-headed serpentine robot, and a docking module. The invention solves the problem that the general search and rescue robot can not work in a complicated and narrow environment, and has the advantages of high efficiency.</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Mar. 2021 - Jun. 2021 </strong>
-                        <br>
-                        <strong>Research Intern, Shanghai Jiao Tong University, Shanghai</strong>
-                        <br>
-                        School of Electronic Information and Electrical Engineering
-                        <br>
-                        Cooperative Medianet Innovation Center (CMIC)
-                        <br>
-                        Work with
-                        <a href="https://scholar.google.com/citations?user=W_Q33RMAAAAJ&hl=zh-CN">Prof. Siheng Chen</a>
-                        <p></p>
-                        <p>Conduct research in cooperative perception, multi-agent communication and graph theory.</p>
-                    </td>
-                </tr>
-               <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/THU.png' width="140"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Dec. 2020 - Jan. 2021 </strong>
-                        <br>
-                        <strong>Visiting PhD Student, Tsinghua University, Beijing</strong>
-                        <br>
-                        Institute for Interdisciplinary Information Sciences (IIIS)
-                        <br>
-                        MARS Lab
-                        <br>
-                        Work with
-                        <a href="https://scholar.google.com/citations?user=DmahiOYAAAAJ&hl=zh-CN">Prof. Hang Zhao</a>
-                        <p></p>
-                        <p>Conduct research in motion prediction and latency-aware predictive perception.</p>
-                    </td>
-                </tr>
-               <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/nyush.png' width="140"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Sept. 2020 - Dec. 2021 </strong>
-                        <br>
-                        <strong>Teaching Assistant, NYUSH, Shanghai</strong>
-                        <br>
-                        Department of Mathematics
-                        <br>
-                        Teaching Go Local Students
-                        <br>
-<!--                        Work with-->
-<!--                        <a href="https://scholar.google.com/citations?user=DmahiOYAAAAJ&hl=zh-CN">Prof. Hang Zhao</a>-->
-                        <p></p>
-                        <br>MATH-UA 121-046: Calculus 1, Fall 2020
-                        <br>MATH-UA 211 Mathematics for Economics I, Fall 2020
-                        <br>Precalculus, Fall 2020
-                    </td>
-                </tr>
-               <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/TJU.png' width="145"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Jul. 2018 - Jun. 2020 </strong>
-                        <br>
-                        <strong>Research Assistant, Tongji University, Shanghai</strong>
-                        <br>
-                        School of Mechanical Engineering
-                        <br>
-                        Vision4Robotics Group
-                        <br>
-                        Work with
-                        <a href="https://scholar.google.com/citations?user=zmbMZ4kAAAAJ&hl=en">Prof. Changhong Fu</a>
-                        <p></p>
-                        <p>Conduct research in visual object tracking in the air.</p>
-                    </td>
-                </tr>
-               <tr>
-                    <td width="10%">
-                        <div class="one">
-                            <div class="two"><img src='img/THU.png' width="140"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="90%">
-                        <strong>Oct. 2019 - Nov. 2019 </strong>
-                        <br>
-                        <strong>Research Assistant, Tsinghua University, Beijing</strong>
-                        <br>
-                        Department of Automation
-                        <br>
-                        UAV Lab
-                        <br>
-                        Work with
-                        <a href="https://www.researchgate.net/profile/Geng-Lu-3">Prof. Geng Lu</a>
-                        <p></p>
-                        <p>Conduct research in the localization and navigation for aerial robots.</p>
-                    </td>
-                </tr>
-            </table>
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="100%" valign="middle">
-                        <heading>Publication</heading>
-                    </td>
-                </tr>
-            </table>
 
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/FLAT.png' width=170></div>
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Magnetic Levitation Positioning Device for Drone's Wireless Charging</h5>                                     	
+                                <div class="pub-publication">China National Intellectual Property Administration 
+								<a class="btn btn-primary btn-outline btn-xs" href="/pdf/Magnetic Levitation Positioning Device for Drone's Wireless Charging.pdf">PDF</a></div></div>                                
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="/img/headers/WirelessCharge.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">We design a magnetic levitation positioning device for charging a drone. The invention realizes autonomous high-efficiency wireless charging of a drone, and has the advantages of high stability, rapidity, high precision, corrosion resistance and long service life.</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://roboticsyimingli.github.io/FLAT/">  Fooling LiDAR Perception via Adversarial Trajectory Perturbation</a></papertitle>
-                        <br>
-                        <strong>Yiming Li</strong>,
-                        Congcong Wen,
-                        Felix Juefei-Xu,
-                        Chen Feng
-                        <br>
-                        <em>Arxiv, preprint</em>, 2021
-<!--                        <em>International Conference on Learning Representations (<b>ICLR</b>)</em>, 2021-->
-                        <br>
-                        <a href="">paper</a> /
-                        <a href="">video</a> /
-                        <a href="">code</a> /
-                        <a href="https://roboticsyimingli.github.io/FLAT/">project page</a>
-                        <p></p>
-                        <p>LiDAR point clouds collected from a vehicle are functions of its trajectories, because the sensor motion needs to be compensated to avoid distortions.
-When autonomous vehicles are sending LiDAR point clouds to deep networks for perception and planning, could the motion compensation consequently become a wide-open backdoor in those networks? </p>
-                    </td>
-                </tr>
 
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/PVT.png' width="170"></div>
+
+                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Intelligent Base Station System based on Autonomous Flying Camera and Fast Wireless Charging</h5>                                     	
+                                <div class="pub-publication">China National Intellectual Property Administration 
+								<a class="btn btn-primary btn-outline btn-xs" href="/pdf/Intelligent Base Station System based on Autonomous Flying Camera and Fast Wireless Charging.pdf">PDF</a></div></div>                                
+                                <div class="col-md-3" style="top:20px">
+                                    <img src="/img/headers/FlyingCamera.png" class="pub-banner" itemprop="image" /></div>
+                                <div class="col-md-8" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">We design an intelligent base station system based on autonomous flying camera and fast wireless charging. The system includes flying cameras and a base station, and the base station includes interaction bins for automatic recovery and release of the flying camera, storage bins for flying camera storage and wireless charging, and transport bins for mobile transport of flying cameras in interactive bins and storage bins. Compared with the prior works, our system has various functions, high self-positioning precision and high charging efficiency..</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://arxiv.org/pdf/2103.04508">Predictive Visual Tracking: A New Benchmark and Baseline Approach</a></papertitle>
-                        <br>
-                        Bowen Li*,
-                        <strong>Yiming Li*</strong>,
-                        Junjie Ye,
-                        Changhong Fu,
-                        Hang Zhao
-                        <br>
-                        <em>Arxiv, preprint</em>, 2021
-<!--                        <em>International Conference on Learning Representations (<b>ICLR</b>)</em>, 2021-->
-                        <br>
-                        <a href="https://arxiv.org/pdf/2103.04508">paper</a> /
-                        <a href="https://www.youtube.com/watch?v=n8i8bREIFeM">video</a> /
-                        <a href="https://github.com/vision4robotics/LAE-PVT-master">code</a> /
-                        <a href="http://people.csail.mit.edu/hangzhao/PVT/">project page</a>
-                        <p></p>
-                        <p> In this work, we deal with a more realistic problem of latency-aware tracking. The state-of-the-art trackers are evaluated in the aerial scenarios with new metrics jointly assessing the tracking accuracy and efficiency. Moreover, a new predictive visual tracking baseline is developed to compensate for the latency stemming from the onboard computation. </p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/AutoTrack.png' width="170"></div>
+						
+						<div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5 class="article-title" itemprop="name">Flying Snake Robot Cooperative Localization based on Online Adaption and Monocular Vision </h5>                                     	
+                                <div class="pub-publication">China National Intellectual Property Administration 
+								<a class="btn btn-primary btn-outline btn-xs" href="/pdf/Flying Snake Robot Cooperative Localization based on Online Adaption and Monocular Vision.pdf">PDF</a></div></div>                                
+                                <!--div class="col-md-3" style="top:20px">
+                                    <img src="/img/headers/SnakeRobots.png" class="pub-banner" itemprop="image" /></div-->
+                                <div class="col-md-12" style="top:10px">
+                                    <div class="pub-abstract" itemprop="text">We develop a flying snake robot cooperative localization method based on online adaption and monocular vision, the method comprises the following steps: (1) constructing a monocular camera acquisition system, (2) acquiring a CAD model of the snake robot, (3) capturing images of onboard snake robot in real time, (4) processing the CAD model, creating a matching template set for each joint, (5) extracting the edge information in the image and matching the joints, (6) calculating the pose of the joint without occlusion in the image according to the optimal matching template, (7) calculating the pose of the remaining joints based on the topological relationships to initialize the pose of each joint, (8) optimizing the pose of each joint. Compared with the prior works, our method has the advantages of low cost, high precision, high speed and adaptability.</div></div>
+                            </div>
                         </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf">AutoTrack: Towards High-Performance Visual Tracking for UAV with Automatic Spatio-Temporal Regularization</a></papertitle>
-                        <br>
-                        <strong>Yiming Li</strong>,
-                        Changhong Fu,
-                        Fangqiang Ding,
-                        Ziyuan Huang,
-                        Geng Lu
-                        <br>
-                        <em>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)</em>, 2020
-                        <br>
-                        <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf">paper</a> /
-<!--                        <a href="https://www.youtube.com/watch?v=AympTZtQAE8&t=2s">video</a> /-->
-                        <a href="https://github.com/vision4robotics/AutoTrack">code</a>
-<!--                        <a href="https://ivy-dl.org/">project page</a>-->
-                        <p></p>
-                        <p>Predefined parameters introduce much effort in tuning them and they still fail to adapt to new situations that the designer did not think of. In this work, a novel approach is proposed to online automatically and adaptively learn spatio-temporal regularization term.</p>
-                    </td>
-                </tr>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/KAOT.png' width="170"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://arxiv.org/pdf/2003.05218">Keyfilter-Aware Real-Time UAV Object Tracking</a></papertitle>
-                        <br>
-                        <strong>Yiming Li</strong>,
-                        Changhong Fu,
-                        Ziyuan Huang,
-                        Yinqiang Zhang,
-                        Jia Pan
-                        <br>
-                        <em>IEEE International Conference on Robotics and Automation (<b>ICRA</b>)</em>, 2020
-                        <br>
-                        <a href="https://arxiv.org/pdf/2003.05218">paper</a> /
-                        <a href="https://www.youtube.com/watch?v=jMfmHVRqv3Y">video</a> /
-                        <a href="https://github.com/vision4robotics/KAOT-tracker">code</a>
-                        <p></p>
-                        <p>Inspired by keyframe-based SLAM, keyfilter-aware visual object tracking is proposed: keyfilters generated by periodically selected keyframes learn the context intermittently and are used to restrain the learning of filters.</p>
-                    </td>
-                </tr>
+				
+        <section id="contact" class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 section-heading">
+                        <h1>Contact</h1></div>
+                    <div class="col-xs-12 col-md-8">
+                        <ul class="fa-ul">
+                            
+                            <li>
+                                <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+                                <span>
+                                    yimingli9702@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
+                                <span>
+                                    +86-15316575579</span>
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                <span>No.4800, Cao An Rd., Jiading District, Shanghai 201804, P.R. China</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br />
+        <footer class="site-footer">
+            <div class="container">
+                <p class="powered-by">&copy; 2019 Yiming Li &middot; Powered by the
+                    <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for
+                    <a href="http://gohugo.io" target="_blank">Hugo</a>.
+                    <span class="pull-right" aria-hidden="true">
+                        <a href="#" id="back_to_top">
+                            <span class="button_icon">
+                                <i class="fa fa-chevron-up fa-2x"></i></span>
+                        </a>
+                    </span>
+                </p>
+            </div>
+        </footer>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="/js/jquery-1.12.3.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/isotope.pkgd.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+        <script src="/js/hugo-academic.js"></script-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script></body>
 
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/AMCF.png' width="170"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://arxiv.org/pdf/1909.10989.pdf">Augmented Memory for Correlation Filters in Real-Time UAV Tracking</a></papertitle>
-                        <br>
-                        <strong>Yiming Li</strong>,
-                        Changhong Fu,
-                        Fangqiang Ding,
-                        Ziyuan Huang,
-                        Jia Pan
-                        <br>
-                        <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>)</em>, 2020
-                        <br>
-                        <a href="https://arxiv.org/pdf/1909.10989.pdf">paper</a> /
-                        <a href=" https://www.youtube.com/watch?v=CGH5o2J1ohI">video</a> /
-                        <a href=" https://github.com/vision4robotics/AMCF-tracker">code</a>
-                        <p></p>
-                        <p>In this work, a novel tracker based on DCF framework is proposed to augment memory of previously appeared views while running at real-time speed. Several historical views and the current view are simultaneously introduced in training to allow the tracker to adapt to new appearances as well as memorize previous ones.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td width="25%">
-                        <div class="one">
-                            <div class="two"><img src='img/ARCF.png' width="170"></div>
-                        </div>
-                    </td>
-                    <td valign="top" width="75%">
-                        <papertitle><a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf">Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking</a></papertitle>
-                        <br>
-                        Ziyuan Huang,
-                        Changhong Fu,
-                        <strong>Yiming Li</strong>,
-                        Fuling Lin,
-                        Peng Lu
-                        <br>
-                        <em>IEEE International Conference on Computer Vision (<b>ICCV</b>)</em>, 2019
-                        <br>
-                        <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf">paper</a> /
-<!--                        <a href="https://www.youtube.com/watch?v=AympTZtQAE8&t=2s">video</a> /-->
-                        <a href="https://github.com/vision4robotics/ARCF-tracker">code</a>
-<!--                        <a href="https://ivy-dl.org/">project page</a>-->
-                        <p></p>
-                        <p>In this work, a novel approach to repress the aberrances happening during the detection process is proposed, i.e., aberrance repressed correlation filter (ARCF). By enforcing restriction to the rate of alteration in response maps generated in the detection phase, the ARCF tracker can evidently suppress aberrances and is thus more robust and accurate to track objects.</p>
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <br>
-            <br>
-
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td width="100%" valign="middle">
-                        <heading>Service</heading>
-                    </td>
-                </tr>
-            </table>
-                <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-                    <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
-                            <img src="img/ieee_ras_logo.jpeg" style="max-width:100%">
-                        </td>
-                        <td width="75%" valign="center">
-<!--                            Reviewer for IEEE Transactions on Robotics (T-RO)-->
-<!--                            <br />-->
-<!--                            Reviewer for IEEE Robotics and Automation Letters (RA-L)-->
-                            <br />
-                            Reviewer for IEEE International Conference on Robotics and Automation (ICRA)
-                            <br />
-                            Reviewer for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-                        </td>
-                    </tr>        
-                </tbody></table>
-
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                <tr>
-                    <td>
-                        <br>
-                        <p align="right">
-                            <font size="2">
-                                Website template by <a href="https://jonbarron.info">Jon Barron</a>.
-                            </font>
-                        </p>
-                    </td>
-                </tr>
-            </table>
-
-        </td>
-    </tr>
-</table>
-</body>
 </html>

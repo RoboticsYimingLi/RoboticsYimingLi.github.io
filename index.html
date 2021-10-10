@@ -58,10 +58,10 @@
                             <a href="/#Publications" data-target="#Publications">
                                 <span>Publications</span></a>
                         </li>
-						<li class="nav-item">
-                            <a href="/#Preprints" data-target="#Preprints">
-                                <span>Preprints</span></a>
-                        </li>
+<!--						<li class="nav-item">-->
+<!--                            <a href="/#Preprints" data-target="#Preprints">-->
+<!--                                <span>Preprints</span></a>-->
+<!--                        </li>-->
 						<li class="nav-item">
                             <a href="/#Patents" data-target="#Patents">
                                 <span>Patents</span></a>
@@ -357,7 +357,28 @@
 <!--				<b><a href="https://rssvlrr.github.io/" target="_blank">RSS Visual Learning and Reasoning for Robotics Workshop 2021</a></b> <br>-->
 				</div>
 			</div><hr>
-			
+
+			<div class="row">
+				<div class="col-md-3">
+					<img class="img-fluid img-rounded" src="/img/headers/AMCF.png" style="border:1px solid black" alt="">
+				</div>
+				<div class="col-md-9">
+				<b><font color="black">Augmented Memory for Correlation Filters in Real-Time UAV Tracking</font></b><br>
+				<a href="https://scholar.google.com/citations?user=i_aajNoAAAAJ" target="_blank"><b>Yiming Li</b></a>,
+                                <a href="https://scholar.google.com/citations?user=zmbMZ4kAAAAJ&hl=en" target="_blank">Changhong Fu</a>,
+                                <a href="https://scholar.google.com/citations?user=Ja8dgh8AAAAJ&hl=en" target="_blank">Fangqiang Ding</a>, 
+                                <a href="https://scholar.google.com/citations?user=A9D-disAAAAJ&hl=en" target="_blank">Ziyuan Huang</a>,
+                                <a href="https://scholar.google.com/citations?user=YYT8-7kAAAAJ&hl=en" target="_blank">Jia Pan</a>
+
+				<br>
+				<b>IROS 2020
+				<a href="https://arxiv.org/pdf/1909.10989.pdf" target="_blank"> <small>[Paper]</small></a>
+				<a href="https://github.com/vision4robotics/AMCF-tracker" target="_blank"> <small>[Code]</small></a> <br> </b>
+                                <I>"Augment the historical information to avoid filter corruptions."</I>
+<!--				<b><a href="https://rssvlrr.github.io/" target="_blank">RSS Visual Learning and Reasoning for Robotics Workshop 2021</a></b> <br>-->
+				</div>
+			</div><hr>
+
 			<div class="row">
 				<div class="col-md-3">
 					<img class="img-fluid img-rounded" src="/img/headers/ARCF.png" style="border:1px solid black" alt="">
@@ -374,7 +395,7 @@
 				<b>ICCV 2019
 				<a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf" target="_blank"> <small>[Paper]</small></a>
 				<a href="https://github.com/vision4robotics/ARCF-tracker" target="_blank"> <small>[Code]</small></a> <br> </b>
-                                <I>"Repress the aberrance in the optimization framework to improve the tracking robustness."</I>
+                                <I>"Penalize the aberrance in the optimization framework."</I>
 <!--				<b><a href="https://rssvlrr.github.io/" target="_blank">RSS Visual Learning and Reasoning for Robotics Workshop 2021</a></b> <br>-->
 				</div>
 			</div><hr>
@@ -384,35 +405,35 @@
             </div>
         </section>
 
-        <section id="Preprints" class="home-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 section-heading">
-                        <h1>Preprints</h1></div>
-                    <div class="col-xs-12">
-                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#bcd4e6;height:5px" />
-                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h5 class="article-title" itemprop="name">Augmented Memory for Correlation Filters in Real-Time UAV Tracking</h5>
-                                    <div class="pub-authors" itemprop="author">
-                                     <b>Yiming Li</b>                                        
-                                        , <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fangqiang-ding/">Fangqiang Ding</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href = "https://scholar.google.com.hk/citations?user=YYT8-7kAAAAJ&hl=zh-CN">Jia Pan</a>
-                                        <a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1909.10989.pdf">PDF</a>
-				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/AMCF-tracker">CODE</a></div>
-                                </div>
-                                <div class="col-md-3" style="top:20px">
-                                    <img src="/img/headers/AMCF.png" class="pub-banner" itemprop="image" /></div>
-                                <div class="col-md-8" style="top:10px">
-                                    <div class="pub-abstract" itemprop="text">In this work, a novel tracker based on DCF framework is proposed to augment memory of previously appeared views while running at real-time speed. Several historical views and the current view are simultaneously introduced in training to allow the tracker to adapt to new appearances as well as memorize previous ones. A novel rapid compressed context learning is proposed to increase the discriminative ability of the filter efficiently.</div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-		
-		<section id="Patents" class="home-section">
+<!--        <section id="Preprints" class="home-section">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12 col-md-4 section-heading">-->
+<!--                        <h1>Preprints</h1></div>-->
+<!--                    <div class="col-xs-12">-->
+<!--                        <hr style="filter:alpha(opacity=100,finishopacity=0,style=2);background-color:#bcd4e6;height:5px" />-->
+<!--                        <div class="pub-list-item" itemscope="" itemtype="http://schema.org/CreativeWork">-->
+<!--                            <div class="row">-->
+<!--                                <div class="col-md-12">-->
+<!--                                    <h5 class="article-title" itemprop="name"></h5>-->
+<!--                                    <div class="pub-authors" itemprop="author">-->
+<!--                                     <b>Yiming Li</b>                                        -->
+<!--                                        , <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=zmbMZ4kAAAAJ&view_op=list_works">Changhong Fu</a>, <a href="https://vision4robotics.github.io/authors/fangqiang-ding/">Fangqiang Ding</a>, <a href="https://scholar.google.com.hk/citations?user=A9D-disAAAAJ&hl=zh-CN">Ziyuan Huang</a>, <a href = "https://scholar.google.com.hk/citations?user=YYT8-7kAAAAJ&hl=zh-CN">Jia Pan</a>-->
+<!--                                        <a class="btn btn-primary btn-outline btn-xs" href="">PDF</a>-->
+<!--				        <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/vision4robotics/AMCF-tracker">CODE</a></div>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-3" style="top:20px">-->
+<!--                                    <img src="/img/headers/AMCF.png" class="pub-banner" itemprop="image" /></div>-->
+<!--                                <div class="col-md-8" style="top:10px">-->
+<!--                                    <div class="pub-abstract" itemprop="text">In this work, a novel tracker based on DCF framework is proposed to augment memory of previously appeared views while running at real-time speed. Several historical views and the current view are simultaneously introduced in training to allow the tracker to adapt to new appearances as well as memorize previous ones. A novel rapid compressed context learning is proposed to increase the discriminative ability of the filter efficiently.</div></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+	<section id="Patents" class="home-section">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 section-heading">
